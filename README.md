@@ -1,1 +1,101 @@
-# my-odin-project
+# My Odin Project
+
+A public learning archive containing the notes, exercises, and standalone projects I create while completing [The Odin Project](https://www.theodinproject.com/) Foundations course and Full Stack JavaScript path.
+
+## Table of contents
+
+- [Current progress](#current-progress)
+- [Course progress](#course-progress)
+- [Projects](#projects)
+- [Repository structure](#repository-structure)
+- [Working with the repository](#working-with-the-repository)
+- [Documentation](#documentation)
+- [License](#license)
+
+## Current progress
+
+- **Course:** Foundations
+- **Section:** Introduction
+- **Active project:** None
+- **Last updated:** 30 July 2026
+
+## Course progress
+
+| Course | Status | Completed |
+|---|---|---|
+| Foundations | Not started | — |
+| Intermediate HTML and CSS | Not started | — |
+| JavaScript | Not started | — |
+| Advanced HTML and CSS | Not started | — |
+| React | Not started | — |
+| Databases | Not started | — |
+| NodeJS | Not started | — |
+| Getting Hired | Not started | — |
+
+## Projects
+
+Formal Odin projects are added to this table when work begins. Each project directory contains its own detailed README with setup instructions, requirements, design decisions, testing, deployment information, and a retrospective.
+
+| ID | Project | Course | Status | Code | Live | Completed | Portfolio |
+|---|---|---|---|---|---|---|---|
+| — | No projects started | — | — | — | — | — | — |
+
+The complete planned project order is available in the [curriculum map](docs/curriculum-map.md).
+
+## Repository structure
+
+```text
+.
+├── courses/     # Notes, knowledge-check answers, SQL queries, and exercises
+├── projects/    # Standalone Odin projects
+├── docs/        # Curriculum map, conventions, and documentation templates
+└── .github/     # Issue and pull-request templates
+```
+
+Course material is organized by official course and section. Formal assignments are stored as standalone applications under `projects/`.
+
+The full structure is documented in [The Odin Project Repository Plan](ODIN_REPOSITORY_PLAN.md).
+
+## Working with the repository
+
+### Course notes and examples
+
+Small lesson updates are committed directly to `main`.
+
+```text
+notes(fnd-s04-html-foundations): answer links knowledge checks
+example(fnd-dom-manipulation): add event listener exercise
+```
+
+### Formal projects
+
+Each formal project uses its own branch, Issue, and pull request.
+
+```bash
+git switch main
+git pull --ff-only
+git switch -c project/fnd-p01-recipes
+```
+
+For npm-based projects, run commands from the individual project directory:
+
+```bash
+cd projects/<course>/<project>
+npm ci
+npm run dev
+```
+
+This repository does not use a root `package.json`, npm workspaces, or shared runtime dependencies.
+
+## Documentation
+
+- [Repository plan](ODIN_REPOSITORY_PLAN.md)
+- [Curriculum map](docs/curriculum-map.md)
+- [Repository conventions](docs/repository-conventions.md)
+- [Project README template](docs/project-readme-template.md)
+
+## License
+
+Original code and documentation are licensed under the [MIT License](LICENSE) unless a file states otherwise.
+
+The Odin Project material, supplied starter files, third-party assets, libraries, APIs, and other external resources remain subject to their original terms. See [Third-Party Notices](THIRD_PARTY_NOTICES.md).
