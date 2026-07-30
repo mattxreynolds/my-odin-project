@@ -2,7 +2,7 @@
 
 This file defines the repository order for The Odin Project Foundations course and Full Stack JavaScript path.
 
-Use three-digit numbering in increments of ten so new sections can be inserted later without renaming completed work.
+Use two-digit numbering in increments of one. If the curriculum changes later, inserted sections may use values such as 02-1-new-section to avoid renaming completed work.
 
 ## Table of contents
 
