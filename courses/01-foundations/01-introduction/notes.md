@@ -17,6 +17,28 @@ No. Required lessons should be completed in order because later material builds 
 
 ## Introduction to Web Development
 
+### Knowledge checks
+
+#### What kind of web developer will The Odin Project teach me to be?
+
+A full-stack developer who can work across both the front end and back end of a web application.
+
+#### What types of careers could I have?
+
+Possible environments include:
+
+- large technology companies;
+- startups;
+- freelance development;
+- consulting or web consultancies;
+- established companies whose primary business may not be technology.
+
+The day-to-day trade-offs differ in areas such as pace, compensation, stability, autonomy, and how much non-development work is involved.
+
+#### What tools will I use regularly?
+
+Core tools include a computer, search engine, text editor, command-line interface, programming-help resources such as Stack Overflow, Git, and GitHub.
+
 ## Motivation and Mindset
 
 ## Asking For Help
