@@ -15,7 +15,7 @@ A public learning archive containing the notes, exercises, and standalone projec
 ## Current progress
 
 - **Course:** Foundations
-- **Section:** Introduction
+- **Section:** Prerequisites
 - **Active project:** None
 - **Last updated:** 03 August 2026
 
