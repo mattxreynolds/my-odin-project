@@ -17,13 +17,13 @@ A public learning archive containing the notes, exercises, and standalone projec
 - **Course:** Foundations
 - **Section:** Introduction
 - **Active project:** None
-- **Last updated:** 30 July 2026
+- **Last updated:** 03 August 2026
 
 ## Course progress
 
 | Course                    | Status      | Completed |
 | ------------------------- | ----------- | --------- |
-| Foundations               | Not started | —         |
+| Foundations               | In progress | —         |
 | Intermediate HTML and CSS | Not started | —         |
 | JavaScript                | Not started | —         |
 | Advanced HTML and CSS     | Not started | —         |
