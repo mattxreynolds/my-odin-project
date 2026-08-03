@@ -41,6 +41,32 @@ Core tools include a computer, search engine, text editor, command-line interfac
 
 ## Motivation and Mindset
 
+### Knowledge checks
+
+#### What are the two modes your mind switches between during the learning process, and how do they differ?
+
+Focus mode is deliberate concentration on a task, such as reading, practicing, debugging, or building a project.
+
+Diffuse mode happens when attention moves away from the problem. During activities such as walking, exercising, doing chores, or sleeping, the mind can continue forming connections between ideas in the background.
+
+Both matter: first put focused effort into a problem, then allow breaks to give the diffuse mode an opportunity to work.
+
+#### When you’re stuck on a programming problem, what three main strategies does the curriculum recommend trying?
+
+Three main strategies are:
+
+1. Research the problem and experiment.
+2. Take a break after making a genuine attempt.
+3. Ask for help, including the research and attempts already made.
+
+The broader process is to learn the concept, practice it, research and experiment when necessary, seek guidance when needed, and return to practice.
+
+#### Why does the curriculum recommend against setting strict deadlines for completing The Odin Project?
+
+Odin is self-paced, and the amount of research or practice needed for a concept is difficult to predict in advance. Artificial deadlines can encourage rushing, increase unnecessary stress, and shift attention from understanding the material to simply finishing it.
+
+Consistency and a sustainable study process are more useful than trying to predict an exact completion date.
+
 ## Asking For Help
 
 ## Join the Odin Community
