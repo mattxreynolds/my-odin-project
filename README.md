@@ -21,26 +21,28 @@ A public learning archive containing the notes, exercises, and standalone projec
 
 ## Course progress
 
-| Course | Status | Completed |
-|---|---|---|
-| Foundations | Not started | — |
-| Intermediate HTML and CSS | Not started | — |
-| JavaScript | Not started | — |
-| Advanced HTML and CSS | Not started | — |
-| React | Not started | — |
-| Databases | Not started | — |
-| NodeJS | Not started | — |
-| Getting Hired | Not started | — |
+| Course                    | Status      | Completed |
+| ------------------------- | ----------- | --------- |
+| Foundations               | Not started | —         |
+| Intermediate HTML and CSS | Not started | —         |
+| JavaScript                | Not started | —         |
+| Advanced HTML and CSS     | Not started | —         |
+| React                     | Not started | —         |
+| Databases                 | Not started | —         |
+| NodeJS                    | Not started | —         |
+| Getting Hired             | Not started | —         |
 
 ## Projects
 
 Formal Odin projects are added to this table when work begins. Each project directory contains its own detailed README with setup instructions, requirements, design decisions, testing, deployment information, and a retrospective.
 
-| ID | Project | Course | Status | Code | Live | Completed | Portfolio |
-|---|---|---|---|---|---|---|---|
-| — | No projects started | — | — | — | — | — | — |
+| ID  | Project             | Course | Status | Code | Live | Completed | Portfolio |
+| --- | ------------------- | ------ | ------ | ---- | ---- | --------- | --------- |
+| —   | No projects started | —      | —      | —    | —    | —         | —         |
 
 The complete planned project order is available in the [curriculum map](docs/curriculum-map.md).
+
+Formal project Issues are pre-created as the curriculum backlog. An open Issue does not indicate that a project has started; projects appear in the table above only when implementation begins.
 
 ## Repository structure
 

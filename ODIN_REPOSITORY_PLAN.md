@@ -182,13 +182,13 @@ git switch -c project/fnd-p01-recipes
 
 Project workflow:
 
-1. Create the Issue and branch.
+1. Use the existing project Issue and create the project branch.
 2. Create the project directory and README.
 3. Implement the assignment in focused commits.
 4. Test and deploy it.
 5. Complete the README and retrospective.
 6. Update the root README.
-7. Merge the pull request and delete the branch.
+7. Merge the pull request, close the issue and delete the branch.
 
 Use Conventional Commit syntax with Odin-specific scopes:
 
@@ -237,6 +237,8 @@ Screenshots are optional and not required.
 
 Create Issues for formal projects, unresolved bugs, blockers, substantial documentation tasks, and portfolio improvements. Do not create Issues for individual lessons or minor edits.
 
+Formal project Issues are created in advance as the project backlog for the complete curriculum. An open project Issue does not mean that the project has started. A project becomes active only when its project branch and directory are created and implementation begins.
+
 ## 7. Deployment
 
 Publish every runnable project.
@@ -266,8 +268,8 @@ Document the provider, build command, start command, migrations, database setup,
 
 | Timing         | Features                                                                                                                                                                                     |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use now        | Issues, lightweight labels, branches, pull requests, templates, license, repository topics, secret protection                                                                                |
-| Add later      | Course milestones, project-specific CI, Dependabot security updates, selected CodeQL workflows, documentation validation                                                                     |
+| Use now        | Issues, lightweight labels, Course milestones, branches, pull requests, templates, license, repository topics, secret protection                                                             |
+| Add later      | Project-specific CI, Dependabot security updates, selected CodeQL workflows, documentation validation                                                                                        |
 | Skip initially | GitHub Projects, one Issue per lesson, root JavaScript tooling, scaffolding generators, root lint/test commands, Codespaces, dev containers, Wiki, Discussions, CODEOWNERS, complex rulesets |
 
 Automation should be added only after repetition proves it useful. Project-specific GitHub Actions should use path filters so unrelated projects are not installed or tested.

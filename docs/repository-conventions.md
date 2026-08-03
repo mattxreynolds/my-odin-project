@@ -216,15 +216,38 @@ type:portfolio
 status:blocked
 ```
 
-Add one course label when that course begins:
+### Course labels
 
-```text
-course:foundations
-course:javascript
-course:react
-```
+Create one course label for every course represented in the project backlog:
+
+    course:foundations
+    course:intermediate-html-and-css
+    course:javascript
+    course:advanced-html-and-css
+    course:react
+    course:databases
+    course:nodejs
+    course:getting-hired
+
+Apply the corresponding course label to each formal project Issue.
+
+Formal project Issues may be created in advance as backlog items. An open project Issue does not indicate that the project is in progress. Work begins only when the project branch and directory are created.
 
 Do not create one Issue per lesson.
+
+### Project Issue lifecycle
+
+Formal project Issues are pre-created for the complete curriculum and remain open while they are waiting in the backlog.
+
+When a project begins:
+
+1. Use the existing project Issue.
+2. Create the project branch.
+3. Create the project directory and README.
+4. Complete the project through its normal pull-request workflow.
+5. Close the Issue when the project pull request is merged.
+
+Do not create a second Issue when starting a project that already has a backlog Issue.
 
 ## Statuses
 
