@@ -88,3 +88,21 @@ That can hide the real goal from the person helping me and send the discussion t
 Before asking, I should also research the problem myself, choose the appropriate help channel, and reduce the problem as much as possible.
 
 ## Join the Odin Community
+
+### Knowledge Check
+
+#### How do you join The Odin Project’s Discord server?
+
+Use The Odin Project's official Discord invitation, sign in or create a Discord account as needed, and then review the server's rules, FAQ, channels, and community expectations.
+
+#### What makes a good question that’s easier for others to help with?
+
+A good question provides enough context for someone else to reproduce or understand the problem without guessing. It explains where I am in the curriculum, what I am trying to accomplish, what is actually happening, what I expected, the relevant code or output, and what I have already investigated.
+
+I should ask the complete question instead of first asking whether anyone is available to help.
+
+#### How can you more effectively help others with their coding problems?
+
+Guide people toward discovering the answer rather than immediately giving them a finished solution. Ask useful questions, establish their current level and context, request clarification or runnable code when needed, and point them toward relevant documentation, curriculum material, debugging techniques, or research.
+
+I should help when I understand the problem well enough to give reliable guidance, avoid interrupting an existing one-to-one help conversation, admit when something is beyond my knowledge, and remain patient.
