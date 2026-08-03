@@ -69,4 +69,22 @@ Consistency and a sustainable study process are more useful than trying to predi
 
 ## Asking For Help
 
+### Knowledge Check
+
+#### What is the “XY Problem”?
+
+The XY Problem happens when I need to solve problem X, decide that solution Y is the answer, and then ask only how to make Y work.
+
+That can hide the real goal from the person helping me and send the discussion toward repairing an unnecessary or incorrect solution. A better question explains the original problem as well as the attempted approach.
+
+#### What 5 things should your questions include?
+
+1. A link or clear reference to the relevant curriculum lesson or project.
+2. The relevant code, pseudocode, command, error message, or other technical context.
+3. A clear explanation of the problem.
+4. A description of the expected result.
+5. A summary of what I have already tried and what happened.
+
+Before asking, I should also research the problem myself, choose the appropriate help channel, and reduce the problem as much as possible.
+
 ## Join the Odin Community
