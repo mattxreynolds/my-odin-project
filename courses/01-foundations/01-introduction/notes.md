@@ -1,7 +1,7 @@
 # Introduction
 
 Started: 03 August 2026
-Completed:
+Completed: 03 August 2026
 
 ## How This Course Will Work
 
