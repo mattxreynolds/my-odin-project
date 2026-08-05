@@ -69,6 +69,14 @@ The browser performs a DNS lookup to get the IP address of the corresponding ser
 
 ## Installations
 
+#### What operating systems does The Odin Project support?
+
+The Odin Project supports macOS and Linux, specifically Ubuntu and official Ubuntu flavors. Windows itself is not supported, but Windows users can use supported Linux environments such as WSL2, a virtual machine, or dual-booting.
+
+#### What browser does The Odin Project support?
+
+The Odin Project supports Google Chrome. Its lessons, screenshots, and developer-tool instructions assume Chrome is being used.
+
 ## Text Editors
 
 ## Command Line Basics
