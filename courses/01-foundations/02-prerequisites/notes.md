@@ -140,3 +140,17 @@ Use ```rm``` to remove a file. To remove a directory and its contents, use ```rm
 Use ```mv``` with the current name or path followed by the new name or path.
 
 ## Setting up Git
+
+### Knowledge Check
+
+#### What is Git?
+
+Git is a version control system used to track changes to files over time.
+
+#### What is GitHub?
+
+GitHub is an online service for hosting and managing Git repositories.
+
+#### What authentication method are we setting up with Git: SSH or HTTPS?
+
+SSH.
