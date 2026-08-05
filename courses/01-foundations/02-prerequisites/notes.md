@@ -79,6 +79,16 @@ The Odin Project supports Google Chrome. Its lessons, screenshots, and developer
 
 ## Text Editors
 
+### Knowledge Check
+
+#### What is a code editor?
+
+A code editor is a specialised text editor designed for writing code. It can provide useful development features such as syntax highlighting, plugins, auto-closing brackets, and linting.
+
+#### Which code editor does The Odin Project support?
+
+The Odin Project supports Visual Studio Code (VSCode).
+
 ## Command Line Basics
 
 ## Setting up Git
