@@ -1,7 +1,7 @@
 # Prerequisites
 
-Started: 05 August 2026
-Completed:
+Started: 05 August 2026  
+Completed: 05 August 2026
 
 ## How Does the Web Work?
 
