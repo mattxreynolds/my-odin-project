@@ -93,4 +93,50 @@ The Odin Project supports Visual Studio Code (VSCode).
 
 ## Command Line Basics
 
+### Knowledge Check
+
+#### What is the command line?
+
+The command line is a text-based interface that lets you give instructions to the computer by typing commands.
+
+#### How do you open the command line on your computer?
+
+Open the terminal application.
+
+#### How can you navigate to a particular directory?
+
+Use ```cd``` followed by the path of the directory you want to move into.
+
+#### Where will cd on its own navigate you to?
+
+It takes you to your home directory.
+
+#### Where will cd .. navigate you to?
+
+It moves you to the parent directory, one level above your current directory.
+
+#### How do you display the name of the directory you are currently in?
+
+Use ```pwd```.
+
+#### How do you display the contents of the directory you are currently in?
+
+Use ```ls```.
+
+#### How do you create a new directory?
+
+Use ```mkdir``` followed by the name of the directory you want to create.
+
+#### How do you create a new file?
+
+Use ```touch``` followed by the name of the file you want to create.
+
+#### How do you destroy a directory or file?
+
+Use ```rm``` to remove a file. To remove a directory and its contents, use ```rm -r```.
+
+#### How do you rename a directory or file?
+
+Use ```mv``` with the current name or path followed by the new name or path.
+
 ## Setting up Git
