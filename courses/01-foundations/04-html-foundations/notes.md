@@ -62,6 +62,40 @@ The body element contains the elements and content that are displayed to users o
 
 ## Working with Text
 
+### Knowledge Check
+
+#### How do you create a paragraph in HTML?
+
+Wrap the paragraph text in a `<p>` element.
+
+#### How do you create a heading in HTML?
+
+Use a heading element from `<h1>` through `<h6>`.
+
+#### How many different levels of headings are there and what is the difference between them?
+
+There are six heading levels, from `<h1>` to `<h6>`. They represent different levels of importance and hierarchy, with `<h1>` being the highest level and `<h6>` the lowest.
+
+#### What element should you use to make text bold and important?
+
+Use the `<strong>` element.
+
+#### What element should you use to make text italicized to add emphasis to it?
+
+Use the `<em>` element.
+
+#### What relationship does an element have with any nested elements within it?
+
+The containing element is the parent, and the elements nested directly within it are its children.
+
+#### What relationship do two elements have if they are at the same level of nesting?
+
+Elements at the same level of nesting are siblings.
+
+#### How do you create HTML comments?
+
+HTML comments are enclosed with `<!--` and `-->`.
+
 ## Lists
 
 ## Links and Images
