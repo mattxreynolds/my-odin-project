@@ -114,4 +114,44 @@ Use the `<li>` element.
 
 ## Links and Images
 
+### Knowledge Check
+
+#### What element is used to create a link?
+
+Use the `<a>` (anchor) element.
+
+#### What is an attribute?
+
+An attribute provides additional information about an HTML element.
+
+#### What attribute tells links where to go to?
+
+The `href` attribute specifies the link's destination.
+
+#### What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?
+
+When using `target="_blank"`, use `rel="noopener"` or `rel="noreferrer"` to prevent the newly opened page from accessing the original page.
+
+#### What is the difference between an absolute and relative link?
+
+An absolute link includes the complete address, such as `scheme://domain/path`, and can link to pages on other websites.
+
+A relative link uses a path relative to the current website or file and is commonly used to link between pages on the same site.
+
+#### Which element is used to display an image?
+
+Use the `<img>` element.
+
+#### What two attributes do images always need to have?
+
+Images need `src` and `alt` attributes.
+
+#### How do you access a parent directory in a filepath?
+
+Use `../`.
+
+#### What are the four main image formats that you can use for images on the web?
+
+The four main formats are JPG, GIF, PNG, and SVG.
+
 ## Commit Messages
