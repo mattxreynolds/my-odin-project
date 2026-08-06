@@ -155,3 +155,14 @@ Use `../`.
 The four main formats are JPG, GIF, PNG, and SVG.
 
 ## Commit Messages
+
+### Knowledge Check
+
+#### What are two benefits of having well-written commit messages and a good commit history?
+
+1. They allow you and other developers to quickly understand what changes were made and why.
+2. They make it easier to understand the project again after returning to it following time away.
+
+#### How many characters should the subject line of your commit message be?
+
+The subject line should be no more than 72 characters.
