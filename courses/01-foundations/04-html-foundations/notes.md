@@ -22,6 +22,24 @@ HTML defines the content and structure of a webpage, such as text, images, and b
 
 ## Elements and Tags
 
+### Knowledge Check
+
+#### What is an HTML tag?
+
+HTML tags mark the opening and closing of elements. An opening tag contains a keyword enclosed in angle brackets, such as `<p>`. A closing tag uses the same keyword with a forward slash before it, such as `</p>`.
+
+#### What are the three parts of an HTML element?
+
+A regular HTML element consists of:
+
+1. An opening tag
+2. Content
+3. A closing tag
+
+#### What are void elements, and how are they different from regular HTML elements?
+
+Void elements do not contain content and do not have a closing tag. Unlike regular elements, they cannot wrap content.
+
 ## HTML Boilerplate
 
 ## Working with Text
