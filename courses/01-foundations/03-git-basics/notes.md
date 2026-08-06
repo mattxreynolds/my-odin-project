@@ -32,3 +32,73 @@ Git allows developers to see how a project has changed over time. It also makes 
 Git and GitHub allow multiple developers to work locally on the same project while keeping track of their individual contributions. Their changes can be brought together, and conflicts between different changes can be identified and managed.
 
 ## Git Basics
+
+### Knowledge Check
+
+#### How do you create a new repository on GitHub?
+
+On the GitHub website, click the `+` button and select **New repository**, then configure and create the repository.
+
+#### How do you copy a repository onto your local machine from GitHub?
+
+Navigate to the directory where you want the repository to be stored, copy the repository's SSH URL from GitHub, and use:
+
+`git clone <SSH-URL>`
+
+This creates a local copy of the repository on your computer.
+
+#### What is the default name of your remote connection?
+
+The default name of the remote connection is `origin`.
+
+#### Explain what `origin` is in `git push origin main`.
+
+`origin` is the name of the remote connection. It identifies the remote repository that the changes will be pushed to.
+
+#### Explain what `main` is in `git push origin main`.
+
+`main` is the name of the branch being pushed. It is the default branch in this repository.
+
+#### Explain the two-stage system that Git uses to save files.
+
+Git uses a two-stage process before changes are saved in its history. First, the desired changes are added to the staging area. The staged changes are then committed to the repository.
+
+#### How do you check the status of your current repository?
+
+Use:
+
+`git status`
+
+This shows the current state of the repository and helps you see which changes have or have not been staged.
+
+#### How do you add files to the staging area in Git?
+
+Use:
+
+`git add .`
+
+This adds the changes in the current directory to the staging area so they can be included in the next commit.
+
+#### How do you commit the files in the staging area and add a descriptive message?
+
+Use:
+
+`git commit -m "message"`
+
+The message should briefly describe the changes included in the commit.
+
+#### How do you push your changes to your repository on GitHub?
+
+Use:
+
+`git push`
+
+This pushes your committed changes to the connected remote repository.
+
+#### How do you look at the history of your previous commits?
+
+Use:
+
+`git log`
+
+This displays the repository's commit history.
