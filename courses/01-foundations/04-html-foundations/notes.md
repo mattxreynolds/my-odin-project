@@ -42,6 +42,24 @@ Void elements do not contain content and do not have a closing tag. Unlike regul
 
 ## HTML Boilerplate
 
+### Knowledge Check
+
+#### What is the purpose of the doctype declaration?
+
+The doctype declaration tells the browser what version of HTML to use when rendering the document.
+
+#### What is the HTML element?
+
+The HTML element is the root element of the document.
+
+#### What is the purpose of the head element?
+
+The head element contains important information about the webpage that is needed by the document but is not displayed as page content.
+
+#### What is the purpose of the body element?
+
+The body element contains the elements and content that are displayed to users on the webpage.
+
 ## Working with Text
 
 ## Lists
