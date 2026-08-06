@@ -98,6 +98,20 @@ HTML comments are enclosed with `<!--` and `-->`.
 
 ## Lists
 
+### Knowledge Check
+
+#### What HTML element is used to create an unordered list?
+
+Use the `<ul>` element.
+
+#### What HTML element is used to create an ordered list?
+
+Use the `<ol>` element.
+
+#### What HTML element is used to create list items within both unordered and ordered lists?
+
+Use the `<li>` element.
+
 ## Links and Images
 
 ## Commit Messages
