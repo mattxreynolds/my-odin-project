@@ -15,9 +15,9 @@ A public learning archive containing the notes, exercises, and standalone projec
 ## Current progress
 
 - **Course:** Foundations
-- **Section:** Git Basics
+- **Section:** HTML Foundations
 - **Active project:** None
-- **Last updated:** 05 August 2026
+- **Last updated:** 06 August 2026
 
 ## Course progress
 
