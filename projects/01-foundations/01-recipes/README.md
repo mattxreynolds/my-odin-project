@@ -14,7 +14,12 @@ FINISH:
 - Remove any unused or placeholder badges.
 -->
 
-![Recipes banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=Recipes&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=The%20Odin%20Project&descAlignY=58&descSize=20)
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=Recipes&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=The%20Odin%20Project&descAlignY=58&descSize=20"
+    alt="Recipes banner"
+  >
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
