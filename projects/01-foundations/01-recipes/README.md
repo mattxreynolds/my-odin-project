@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
-<h1 align="center"><a href="https://odin-recipes-gamma.vercel.app">Recipes</a></h1>
+<h1 align="center"><a href="https://odin-recipes-gamma.vercel.app" target="_blank">Recipes</a></h1>
 
 <p align="center">A multi-page recipe website demonstrating foundational HTML, relative links, images, lists, and a structured Git workflow.</p>
 
@@ -20,7 +20,7 @@
 
 - **Status:** Complete
 - **Started:** 07-08-2026
-- **Completed:** 07-08-2026
+- **Completed:** 19-08-2026
 - **Portfolio readiness:** Learning project
 
 ## Links
@@ -223,7 +223,9 @@ I would verify spelling, units, alternative text, and source attribution as each
 ## Attribution
 
 - Project brief: [The Odin Project — Recipes](https://www.theodinproject.com/lessons/foundations-recipes).
-- Recipe text and dish images are included as learning-project content. Their original source URLs and licence terms were not recorded in the project history, so they should not be treated as MIT-licensed assets until their provenance is confirmed.
+- [Greek Yogurt Pancakes](https://www.allrecipes.com/recipe/244286/greek-yogurt-pancakes/) — recipe source.
+- [One-Pan Dirty Spaghetti](https://www.allrecipes.com/one-pan-dirty-spaghetti-recipe-11930383) — recipe source.
+- [Moist Chocolate Layer Cake](https://www.allrecipes.com/recipe/232342/moist-chocolate-layer-cake/) — recipe source.
 
 ## License
 
