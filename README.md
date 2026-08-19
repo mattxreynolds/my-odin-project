@@ -16,8 +16,8 @@ A public learning archive containing the notes, exercises, and standalone projec
 
 - **Course:** Foundations
 - **Section:** HTML Foundations
-- **Active project:** Recipes
-- **Last updated:** 06 August 2026
+- **Active project:** None
+- **Last updated:** 19 August 2026
 
 ## Course progress
 
@@ -36,9 +36,9 @@ A public learning archive containing the notes, exercises, and standalone projec
 
 Formal Odin projects are added to this table when work begins. Each project directory contains its own detailed README with setup instructions, requirements, design decisions, testing, deployment information, and a retrospective.
 
-| ID      | Project | Course      | Status      | Code                                                       | Live | Completed | Portfolio        |
-| ------- | ------- | ----------- | ----------- | ---------------------------------------------------------- | ---- | --------- | ---------------- |
-| FND-P01 | Recipes | Foundations | In progress | [Code](projects/01-foundations/01-recipes/)                | —    | —         | Learning project |
+| ID      | Project | Course      | Status   | Code                                        | Live                                          | Completed  | Portfolio        |
+| ------- | ------- | ----------- | -------- | ------------------------------------------- | --------------------------------------------- | ---------- | ---------------- |
+| FND-P01 | Recipes | Foundations | Complete | [Code](projects/01-foundations/01-recipes/) | [Live](https://odin-recipes-gamma.vercel.app) | 19-08-2026 | Learning project |
 
 The complete planned project order is available in the [curriculum map](docs/curriculum-map.md).
 
