@@ -25,3 +25,4 @@ npm-debug.log*
 *.sqlite
 *.sqlite3
 uploads/
+.vercel
