@@ -1,7 +1,7 @@
 # HTML Foundations
 
 Started: 06 August 2026  
-Completed:
+Completed: 19 August 2026
 
 ## Introduction to HTML and CSS
 
