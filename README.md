@@ -15,7 +15,7 @@ A public learning archive containing the notes, exercises, and standalone projec
 ## Current progress
 
 - **Course:** Foundations
-- **Section:** HTML Foundations
+- **Section:** CSS Foundations
 - **Active project:** None
 - **Last updated:** 19 August 2026
 
