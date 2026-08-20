@@ -10,7 +10,7 @@
 6. [Issues and labels](#issues-and-labels)
 7. [Statuses](#statuses)
 8. [Tags](#tags)
-9. [Deployment names](#deployment-names)
+9. [Deployment paths and names](#deployment-paths-and-names)
 10. [Environment variables](#environment-variables)
 
 ## Directory naming
@@ -296,9 +296,25 @@ project/js-p04-todo-list-v1.0.0
 
 Do not create GitHub Releases for normal course completion.
 
-## Deployment names
+## Deployment paths and names
 
-Use:
+Shared GitHub Pages deployments use the project's existing repository path:
+
+```text
+https://mattxreynolds.github.io/my-odin-project/projects/<course>/<project>/
+```
+
+Examples:
+
+```text
+https://mattxreynolds.github.io/my-odin-project/projects/01-foundations/01-recipes/
+https://mattxreynolds.github.io/my-odin-project/projects/03-javascript/04-todo-list/
+```
+
+Keep these paths stable after publication. A project must be listed in
+`deploy/pages-projects.json` before the shared Pages workflow publishes it.
+
+Independent deployments use:
 
 ```text
 odin-<project>

@@ -11,6 +11,7 @@ FINISH:
 - Point the project title to the final live deployment.
 - Revise the one-line description so it accurately describes the finished project.
 - Make sure the badges match the technologies actually used.
+- Use a provider badge only when it adds useful factual context.
 - Remove any unused or placeholder badges.
 -->
 
@@ -283,16 +284,23 @@ Describe what was tested and any important untested behavior.
 FINISH:
 - Complete this section once the final deployment exists and has been verified.
 - Add the actual provider and production URL.
-- Record the correct root directory, build command, output directory, and start command where applicable.
+- Identify whether the project uses the shared GitHub Pages site or an independent deployment.
+- For shared Pages projects, record the manifest path and published subpath.
+- For independent deployments, record the correct root directory.
+- Record the build command, output directory, and start command where applicable.
 - Document required environment-variable names in .env.example, but never their values.
 - Verify the production deployment before marking the project complete.
 -->
 
 * **Provider:** —
+* **Deployment model:** —
 * **Production URL:** —
 * **Root directory:** —
+* **Pages manifest:** —
+* **Published path:** —
 * **Build command:** —
 * **Output directory:** —
+* **Start command:** —
 
 Document required environment-variable names, but never their values.
 
