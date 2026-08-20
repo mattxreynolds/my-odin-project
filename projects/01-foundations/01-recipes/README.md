@@ -9,10 +9,10 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages" />
 </p>
 
-<h1 align="center"><a href="https://odin-recipes-gamma.vercel.app" target="_blank">Recipes</a></h1>
+<h1 align="center"><a href="https://mattxreynolds.github.io/my-odin-project/projects/01-foundations/01-recipes/" target="_blank">Recipes</a></h1>
 
 <p align="center">A multi-page recipe website demonstrating foundational HTML, relative links, images, lists, and a structured Git workflow.</p>
 
@@ -26,7 +26,7 @@
 ## Links
 
 - **Assignment:** [The Odin Project — Recipes](https://www.theodinproject.com/lessons/foundations-recipes)
-- **Live demo:** [odin-recipes-gamma.vercel.app](https://odin-recipes-gamma.vercel.app)
+- **Live demo:** [GitHub Pages](https://mattxreynolds.github.io/my-odin-project/projects/01-foundations/01-recipes/)
 - **Repository path:** `projects/01-foundations/01-recipes`
 
 ## Overview
@@ -161,14 +161,18 @@ There is no automated test suite because the project is a small static HTML exer
 
 ## Deployment
 
-- **Provider:** Vercel
-- **Production URL:** [https://odin-recipes-gamma.vercel.app](https://odin-recipes-gamma.vercel.app)
-- **Root directory:** `projects/01-foundations/01-recipes`
+- **Provider:** GitHub Pages
+- **Deployment model:** Shared repository Pages site
+- **Production URL:** [GitHub Pages](https://mattxreynolds.github.io/my-odin-project/projects/01-foundations/01-recipes/)
+- **Root directory:** Not applicable
+- **Pages manifest:** `deploy/pages-projects.json`
+- **Published path:** `projects/01-foundations/01-recipes`
 - **Build command:** Not applicable
 - **Output directory:** Not applicable
+- **Start command:** Not applicable
 - **Environment variables:** None
 
-Vercel publishes the project directory as a static site. No build step, output directory, or runtime configuration is required.
+The repository's path-filtered GitHub Pages workflow copies the static project into a curated deployment artifact. No project build step, output directory, or runtime configuration is required.
 
 ## Accessibility
 
