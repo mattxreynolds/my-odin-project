@@ -8,6 +8,7 @@ import json
 import re
 from pathlib import Path
 
+from build_pages import ManifestError, load_manifest
 from repo_state import ROOT, derive_state
 
 APPROVED_STATUSES = {"Not started", "In progress", "Paused", "Complete", "Portfolio ready", "Archived"}
@@ -28,6 +29,13 @@ def validate(root: Path) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
     if (root / "package.json").exists():
         findings.append(finding("error", "architecture", "Root package.json is forbidden", "package.json"))
+
+    pages_manifest = root / "deploy/pages-projects.json"
+    if pages_manifest.exists():
+        try:
+            load_manifest(root, pages_manifest)
+        except ManifestError as error:
+            findings.append(finding("error", "deployment", "Invalid Pages manifest", str(error)))
 
     for message in state["inconsistencies"]:
         findings.append(finding("warning", "progress", message, "README.md and docs/curriculum-map.md"))

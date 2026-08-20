@@ -4,7 +4,7 @@
 **Research baseline:** 30 July 2026  
 **Environment:** Windows with WSL2  
 **Package manager:** npm  
-**Preferred frontend host:** Vercel
+**Preferred static frontend host:** GitHub Pages
 
 ## Table of contents
 
@@ -245,18 +245,25 @@ Publish every runnable project.
 
 ### Frontend
 
-Prefer Vercel for static sites, Vite applications, React applications, and frontend portions of full-stack projects.
-
-Create a separate Vercel project for each deployable directory and set its Root Directory.
+Publish ordinary static HTML, CSS, JavaScript, Vite, and client-only React
+projects through the repository's shared GitHub Pages site. Keep each project at
+a stable path derived from its repository directory:
 
 ```text
-Deployment name: odin-<project>
-Root Directory: projects/05-react/03-shopping-cart
-Build Command: npm run build
-Output Directory: dist
+https://mattxreynolds.github.io/my-odin-project/projects/<course>/<project>/
 ```
 
-Add routing configuration only when the project requires it.
+Only projects listed in `deploy/pages-projects.json` are published. Add a project
+to that manifest only after it has reached its deployment stage. The Pages
+workflow may build an independently installable project from its own directory,
+but must not introduce a root JavaScript workspace, root package dependencies, or
+shared runtime dependencies.
+
+Use an independent frontend deployment only when a project needs provider-specific
+features, runtime isolation, a dedicated domain, or separate portfolio presentation.
+Use the repository-conventional `odin-<project>` deployment name when the provider
+requires one. Configure base paths and client-side routing only when the project
+requires them, and verify direct navigation to nested routes.
 
 ### Node and PostgreSQL
 
@@ -273,6 +280,10 @@ Document the provider, build command, start command, migrations, database setup,
 | Skip initially | GitHub Projects, one Issue per lesson, root JavaScript tooling, scaffolding generators, root lint/test commands, Codespaces, dev containers, Wiki, Discussions, CODEOWNERS, complex rulesets |
 
 Automation should be added only after repetition proves it useful. Project-specific GitHub Actions should use path filters so unrelated projects are not installed or tested.
+
+The shared GitHub Pages deployment is repository infrastructure rather than a
+root JavaScript workspace. Its workflow must use path filters and publish only the
+curated artifact described by `deploy/pages-projects.json`.
 
 ## 9. Initial setup
 

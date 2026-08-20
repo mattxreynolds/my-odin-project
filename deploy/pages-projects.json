@@ -1,0 +1,15 @@
+{
+  "site_title": "Matt's Odin Projects",
+  "projects": [
+    {
+      "id": "fnd-p01-recipes",
+      "title": "Recipes",
+      "source": "projects/01-foundations/01-recipes",
+      "destination": "projects/01-foundations/01-recipes",
+      "mode": "static",
+      "exclude": [
+        "README.md"
+      ]
+    }
+  ]
+}
