@@ -323,9 +323,8 @@ odin-<project>
 Examples:
 
 ```text
-odin-recipes
-odin-todo-list
-odin-shopping-cart
+odin-basic-informational-site
+odin-mini-message-board
 odin-odin-book
 ```
 

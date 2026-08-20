@@ -46,9 +46,13 @@ projects/
 
 ```text
 my-odin-project/
+├── .agents/
+│   └── skills/               # Repository-local Odin workflows
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   └── work-item.md
+│   ├── workflows/
+│   │   └── deploy-projects-pages.yml
 │   └── pull_request_template.md
 ├── courses/
 │   ├── 01-foundations/
@@ -72,6 +76,10 @@ my-odin-project/
 │   ├── curriculum-map.md
 │   ├── project-readme-template.md
 │   └── repository-conventions.md
+├── deploy/
+│   └── pages-projects.json   # Curated shared Pages publications
+├── tools/
+│   └── odin/                 # Deterministic repository utilities
 ├── .editorconfig
 ├── .gitattributes
 ├── .gitignore
@@ -254,10 +262,16 @@ https://mattxreynolds.github.io/my-odin-project/projects/<course>/<project>/
 ```
 
 Only projects listed in `deploy/pages-projects.json` are published. Add a project
-to that manifest only after it has reached its deployment stage. The Pages
-workflow may build an independently installable project from its own directory,
-but must not introduce a root JavaScript workspace, root package dependencies, or
-shared runtime dependencies.
+to that manifest only after it has reached its deployment stage. The current Pages
+builder publishes static source projects. Extend it with project-local install and
+build commands when the first build-based project genuinely needs that support;
+do not introduce a root JavaScript workspace, root package dependencies, or shared
+runtime dependencies.
+
+The production Pages workflow runs from `main`. Before merging a shared Pages
+project, validate its curated artifact but keep its live link documented as not
+deployed. After the merge and successful production verification, update the root
+and project READMEs with the factual live URL as a separate documentation concern.
 
 Use an independent frontend deployment only when a project needs provider-specific
 features, runtime isolation, a dedicated domain, or separate portfolio presentation.
@@ -273,10 +287,10 @@ Document the provider, build command, start command, migrations, database setup,
 
 ## 8. GitHub and automation
 
-| Timing         | Features                                                                                                                                                                                     |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use now        | Issues, lightweight labels, Course milestones, branches, pull requests, templates, license, repository topics, secret protection                                                             |
-| Add later      | Project-specific CI, Dependabot security updates, selected CodeQL workflows, documentation validation                                                                                        |
+| Timing         | Features                                                                                                                                                                                    |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Use now        | Issues, lightweight labels, Course milestones, branches, pull requests, templates, shared GitHub Pages deployment, license, repository topics, secret protection                           |
+| Add later      | Project-specific CI, Dependabot security updates, selected CodeQL workflows, documentation validation                                                                                       |
 | Skip initially | GitHub Projects, one Issue per lesson, root JavaScript tooling, scaffolding generators, root lint/test commands, Codespaces, dev containers, Wiki, Discussions, CODEOWNERS, complex rulesets |
 
 Automation should be added only after repetition proves it useful. Project-specific GitHub Actions should use path filters so unrelated projects are not installed or tested.
@@ -333,7 +347,12 @@ Review the notes and examples, remove unused placeholders, verify source links, 
 
 ### Project completion
 
-Run available tests, linting, and builds; verify the deployment; complete the README and retrospective; update the project table; merge the pull request; delete the branch; and close the Issue.
+Run available tests, linting, and builds; complete the README and retrospective;
+update the project table; and finish the project pull-request lifecycle. Verify an
+independent deployment before the project PR. For shared Pages, validate the
+artifact before the PR, merge without claiming an unverified live deployment,
+verify the production workflow afterward, and then update the live links in a
+separate documentation change. Delete merged branches and confirm Issue closure.
 
 ### Course completion
 
