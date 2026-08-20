@@ -38,7 +38,7 @@ Formal Odin projects are added to this table when work begins. Each project dire
 
 | ID      | Project | Course      | Status   | Code                                        | Live                                          | Completed  | Portfolio        |
 | ------- | ------- | ----------- | -------- | ------------------------------------------- | --------------------------------------------- | ---------- | ---------------- |
-| FND-P01 | Recipes | Foundations | Complete | [Code](projects/01-foundations/01-recipes/) | [Live](https://odin-recipes-gamma.vercel.app) | 19-08-2026 | Learning project |
+| FND-P01 | Recipes | Foundations | Complete | [Code](projects/01-foundations/01-recipes/) | [Live](https://mattxreynolds.github.io/my-odin-project/projects/01-foundations/01-recipes/) | 19-08-2026 | Learning project |
 
 The complete planned project order is available in the [curriculum map](docs/curriculum-map.md).
 
