@@ -48,10 +48,13 @@ Formal project Issues are pre-created as the curriculum backlog. An open Issue d
 
 ```text
 .
+├── .agents/     # Repository-local Odin workflows
+├── .github/     # Templates and GitHub Pages automation
 ├── courses/     # Notes, knowledge-check answers, SQL queries, and exercises
-├── projects/    # Standalone Odin projects
+├── deploy/      # Curated shared Pages publication metadata
 ├── docs/        # Curriculum map, conventions, and documentation templates
-└── .github/     # Issue and pull-request templates
+├── projects/    # Standalone Odin projects
+└── tools/       # Deterministic repository utilities
 ```
 
 Course material is organized by official course and section. Formal assignments are stored as standalone applications under `projects/`.

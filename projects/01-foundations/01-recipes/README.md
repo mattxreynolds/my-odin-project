@@ -79,12 +79,12 @@ The project demonstrates how complete HTML documents, semantic content elements,
 
 ## Tech stack
 
-| Technology | Role                                                            |
-| ---------- | --------------------------------------------------------------- |
-| HTML5      | Structures the homepage, recipe content, navigation, and images |
-| Git        | Tracks the project through incremental commits                  |
-| GitHub     | Hosts the repository and project source                         |
-| Vercel     | Deploys and hosts the production website                        |
+| Technology   | Role                                                            |
+| ------------ | --------------------------------------------------------------- |
+| HTML5        | Structures the homepage, recipe content, navigation, and images |
+| Git          | Tracks the project through incremental commits                  |
+| GitHub       | Hosts the repository and project source                         |
+| GitHub Pages | Deploys and hosts the production website                        |
 
 The project intentionally has no CSS, JavaScript, package dependencies, or build tooling because its scope is foundational HTML.
 
