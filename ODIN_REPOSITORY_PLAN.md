@@ -250,7 +250,7 @@ Prefer Vercel for static sites, Vite applications, React applications, and front
 Create a separate Vercel project for each deployable directory and set its Root Directory.
 
 ```text
-Deployment name: odin-<course>-<project>
+Deployment name: odin-<project>
 Root Directory: projects/05-react/03-shopping-cart
 Build Command: npm run build
 Output Directory: dist

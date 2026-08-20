@@ -301,16 +301,16 @@ Do not create GitHub Releases for normal course completion.
 Use:
 
 ```text
-odin-<course>-<project>
+odin-<project>
 ```
 
 Examples:
 
 ```text
-odin-foundations-recipes
-odin-javascript-todo-list
-odin-react-shopping-cart
-odin-node-odin-book
+odin-recipes
+odin-todo-list
+odin-shopping-cart
+odin-odin-book
 ```
 
 ## Environment variables
