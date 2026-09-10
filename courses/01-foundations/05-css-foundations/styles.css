@@ -1,0 +1,72 @@
+* {
+  color: purple;
+}
+
+#title {
+  background-color: red;
+}
+
+div {
+  color: black;
+}
+
+.section {
+  border: 2px chartreuse solid;
+}
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+  padding-left: 1rem;
+}
+
+.unread {
+  font-size: large;
+}
+
+.subsection.header {
+  color: green;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+.alert-text {
+  color: red;
+}
+
+.ancestor .contents {
+  background-color: yellow;
+}
+
+.hex {
+  /* hex example: */
+  color: #1100ff;
+}
+
+.rgb {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+}
+
+.hsl {
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.align {
+  text-align: center;
+  color: black;
+}
