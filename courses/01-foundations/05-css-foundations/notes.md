@@ -41,6 +41,12 @@ Inline CSS is written in an element’s `style` attribute. It does not use a sel
 
 ## The Cascade
 
+### Knowledge Check
+
+#### Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+
+The rule with one class selector.
+
 ## Inspecting HTML and CSS
 
 ## The Box Model
