@@ -1,0 +1,37 @@
+/* rule 1 */
+#subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 */
+.main #subsection {
+  color: red;
+}
+
+/* rule 1 */
+.class.second-class {
+  font-size: 12px;
+}
+
+/* rule 2 */
+.class > .second-class {
+  font-size: 24px;
+}
+
+#parent {
+  color: red;
+  font-size: 20px;
+}
+
+.child {
+  color: blue;
+}
+
+.alert {
+  color: red;
+}
+
+.warning {
+  color: yellow;
+}
