@@ -7,6 +7,10 @@ Course work follows the root `AGENTS.md` and the repository documentation.
 - A new notes file may contain only the section heading, repository-conventional
   dates, and current official lesson headings. Never pre-fill answers or copy
   lesson prose.
+- When Matt finishes a lesson, generate original questions from its current
+  official content as a **Personal Knowledge Check** in conversation. Let him
+  answer before reviewing or adding anything to `notes.md`. Generated questions
+  must not be presented as official TOP questions.
 - Classify each demonstrated knowledge-check answer exactly as **Correct**,
   **Correct but incomplete**, **Incorrect**, or **Unclear**. Anything except
   **Correct** gets an explanation and a hint or guiding question; do not edit.

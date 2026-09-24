@@ -339,7 +339,14 @@ chore(github): add issue and pull request templates
 
 ### Lesson work
 
-Pull `main`, update the current section, commit one coherent change, and push.
+After studying a lesson, ask Codex for a personal knowledge check. Codex reads
+the current official lesson and writes original, lesson-scoped questions in the
+conversation without answers. Answer in your own words; Codex reviews the
+answers and uses hints for gaps. Once understanding is demonstrated, review the
+proposed notes wording before it is added to the current section's `notes.md`.
+Label generated questions as personal, not official TOP questions. Pull `main`
+before updating notes, then commit one coherent change and push under the
+repository's Git approval rules.
 
 ### Section completion
 

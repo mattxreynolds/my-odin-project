@@ -7,9 +7,10 @@ description: Complete the current Odin section when the user says the section is
 
 Read root and course guidance. Resolve the active section from repository state,
 then inspect its notes and current official section lesson list when practical.
-Flag missing lesson headings, unresolved placeholders, empty knowledge-check
-material, or source-access uncertainty. Do not correct authored answers during
-this workflow.
+Flag missing lesson headings, unresolved placeholders, missing personal
+knowledge-check answers for completed substantive lessons, or source-access
+uncertainty. Do not correct authored answers during this workflow, and do not
+retroactively require generated questions in older completed notes.
 
 Only when the section is genuinely ready, add or update its completion date in the
 format established by recent notes. Preserve all authored content. Do not create

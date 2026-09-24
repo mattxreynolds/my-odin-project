@@ -7,8 +7,10 @@ description: Review Odin knowledge-check answers supplied in conversation, teach
 
 Read the root and `courses/AGENTS.md`. Infer the lesson from the conversation,
 active section, notes headings, and curriculum; do not require a URL when this is
-reliable. Consult the current official lesson and its knowledge-check intent when
-practical, disclosing any source failure.
+reliable. Review answers to either current official questions or questions
+created by `odin-generate-knowledge-check`. Consult the current official lesson
+to assess the answers when practical, disclosing any source failure. Do not
+represent generated questions as official TOP questions.
 
 For every answer, use exactly one classification: **Correct**, **Correct but
 incomplete**, **Incorrect**, or **Unclear**. Judge demonstrated understanding, not
@@ -20,6 +22,8 @@ give a replacement answer and do not edit notes.
 
 After the user demonstrates the required understanding, prepare polished Markdown
 that preserves their meaning without adding substantial knowledge or copying TOP.
+For generated questions, keep their wording and label the notes section
+`### Personal Knowledge Check`; include only Matt's demonstrated answers.
 Show the exact proposed Markdown and stop. Edit `notes.md` only after explicit
 approval of that wording. Protect completed notes unless correction was explicitly
 requested. Then validate and propose one lesson-scoped knowledge-check commit,
