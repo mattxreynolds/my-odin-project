@@ -49,6 +49,28 @@ The rule with one class selector.
 
 ## Inspecting HTML and CSS
 
+### Personal Knowledge Check
+
+#### You spot a button on a page that looks wrong. How would you open DevTools with that button selected, and where would you find its HTML and CSS?
+
+Right-click the button and choose Inspect. Its HTML appears in the Elements panel, and its CSS appears in the Styles panel.
+
+#### If you’ve already opened DevTools but cannot find an element in the HTML tree, how could you select it directly from the page?
+
+Click the element-select icon in the top-left corner of DevTools, then click the element on the page.
+
+#### You see a CSS declaration crossed out in the Styles panel. What does that tell you, and how would you investigate which style is taking effect?
+
+The declaration is overridden by another style. Look through the Styles panel to find where that property is set.
+
+#### You want to try a different background colour without editing your project files. What would you do in DevTools, and what would happen to that change if you reloaded the page?
+
+Add a CSS declaration for the element in the Styles panel. The change reverts when the page reloads.
+
+#### How could you temporarily change an element’s text or an attribute in the Elements panel? Would that change the HTML file in your editor?
+
+Double-click the text or attribute you want to change. This does not change the HTML file in the editor.
+
 ## The Box Model
 
 ## Block and Inline
